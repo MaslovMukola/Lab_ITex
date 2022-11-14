@@ -1,5 +1,5 @@
 html {
-    height: 101%;
+    height: 150%;
 }
 body {
     background-color: wheat;
@@ -44,7 +44,7 @@ div.header{
 div.border {
     background-color: rgb(167, 177, 109);
     border: 2px solid #17191b;
-    height: 600px;
+    height: 800px;
     width: 90%;
     margin-left: auto;
     margin-right: auto;
@@ -61,4 +61,59 @@ p.center{
 }
 table{
     width: 95%; 
+}
+
+/* Поля ввода полной ширины */
+input[type=email], input[type=password] {
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: white;
+}
+
+/* Установите стиль для всех кнопок */
+button {
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    width: 100%;
+}
+
+/* Дополнительные стили для кнопки "Отмена" */
+.cancelbtn {
+    padding: 14px 20px;
+    background-color: red;
+
+}
+
+/* Поплавок отмена и кнопки регистрации и добавить равную ширину */
+.cancelbtn, .signupbtn {
+    float: left;
+    width: 50%;
+}
+
+/* Добавить отступы к элементам контейнера */
+.container {
+    padding: 20px;
+}
+
+.wrapper{
+    margin-top: 15px;
+    position: fixed;
+    width: 27%;
+}
+
+input:invalid {
+    border: 2px solid red;
+  }
+input:valid {
+    border: 2px solid green;
+  }
+
+h1.O{
+    margin-top: 23%; 
+    text-align: center;
 }

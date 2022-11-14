@@ -104,14 +104,35 @@
         </div>
         </div>
         <div class="search">
-            <br>
-            <form action="#" method="get">
-            <input name="s" placeholder="Искать здесь..." type="search">
-            <button type="submit">Поиск</button>
-          </form>
+        <div class="wrapper">
+          <form action="#">
+            <div class="container">
+              <h2>Форма регистрации</h2>
+              <p>Для создания учетной записи, заполните форму</p>
+          
+              <label for="email"><b>Email</b></label>
+              <input type="email" placeholder="Введите вашу почту" name="email" required>
+          
+              <label for="psw"><b>Пароль</b></label>
+              <input type="password" minlength="8" placeholder="Введите пароль" name="psw" required>
+          
+              <label for="psw-repeat"><b>Повторить пароль</b></label>
+              <input type="password" minlength="8" placeholder="Повторите пароль" name="psw-repeat" required>
+          
+              <label>
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Запомнить меня
+              </label>
 
-        <div class="navigation"><a href="Otnosytelna.html" target="_blank">Относительна ссылка</a></div>
+            <div class="clearfix">
+                <button type="reset" class="cancelbtn">Отменить</button>
+                <button type="submit" class="signupbtn">Регистрация</button>
+            </div>
+            </div>
+            </form>
+            </div>
+            <div class="navigation"><a href="Otnosytelna.html" target="_blank">Относительна ссылка</a></div>
         </div>
+        
         </div>
         <div class="footer">
         </div>

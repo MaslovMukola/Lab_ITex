@@ -2,6 +2,69 @@ html {
     height: 101%;
 }
 body {
+    background-color: wheat;
+    /*border: 2px solid purple;*/
+    padding: 20px;
+}
+div.footer{
+    margin-top: 15px; 
+    clear: left; 
+    text-align: center; 
+    margin-top: 15px;
+}
+div.navigation{
+    margin-top: auto;
+}
+div.search{
+    margin-left: 2%; 
+    margin-top: 15px; 
+    width: 30%; 
+    height: 200px; 
+    float: left; 
+    text-align: center;
+}
+div.article_2{
+    margin-top: 20px;
+}
+div.article_1{
+    text-align: left;
+    margin-top: 10px;
+}
+div.content_main_section{
+    margin-top: 15px; 
+    width: 65%;
+    height: auto;
+    float: left;
+    text-align: center;
+}
+div.header{ 
+    margin-top: 15px; 
+    text-align: center;
+}
+div.border {
+    background-color: rgb(167, 177, 109);
+    border: 2px solid #17191b;
+    height: 600px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+tr {
+    text-align: center;
+}
+tr.cursiv {
+    font-weight: bold;
+}
+p.center{
+    text-align: center;
+}
+table{
+    width: 95%; 
+}
+html {
+    height: 101%;
+}
+body {
     background-color: rgb(6, 204, 231);
     border: 2px solid purple;
     padding: 20px;

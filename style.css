@@ -63,16 +63,14 @@ table{
     width: 95%; 
 }
 
-/* Поля ввода полной ширины */
 input[type=email], input[type=password] {
     width: 90%;
     padding: 15px;
     margin: 5px 0 22px 0;
     border: none;
     background: white;
-}
+}/*поле для воду*/
 
-/* Установите стиль для всех кнопок */
 button {
     background-color: green;
     color: white;
@@ -80,25 +78,22 @@ button {
     margin: 8px 0;
     border: none;
     width: 100%;
-}
+}/*Стилі для кнопок*/
 
-/* Дополнительные стили для кнопки "Отмена" */
 .cancelbtn {
     padding: 14px 20px;
     background-color: red;
 
-}
+}/*Доп стилі*/
 
-/* Поплавок отмена и кнопки регистрации и добавить равную ширину */
 .cancelbtn, .signupbtn {
     float: left;
     width: 50%;
-}
+}/*кнопка відміни*/
 
-/* Добавить отступы к элементам контейнера */
 .container {
     padding: 20px;
-}
+}/*Відступи*/
 
 .wrapper{
     margin-top: 15px;
